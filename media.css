@@ -1,33 +1,65 @@
 @media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
   header {
     padding: 2rem;
   }
-}
-@media (max-width: 768px) {
-  .about .about-image {
-    width: 100%;
-  }
-  .about .about-image .image-girl {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    align-items: center;
+  .about {
+    min-height: auto;
   }
   .contact .contact-form .form-box {
-    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    margin: 0;
+    padding: 0;
+    max-height: 500px;
+  }
+  .left {
+    height: 50rem;
+  }
+  .home .text h1 {
+    font-size: 4rem;
+  }
+  .home .text h2 .typing {
+    font-size: 2rem;
+  }
+  .home .text {
+    top: -60%;
+    bottom: 0;
     left: 0;
-    top: 0;
     right: 0;
-    margin-left: 0;
-    position: static;
+    margin: 0 auto;
+  }
+  .home .maple {
+    width: 6rem;
+    height: 6rem;
+  }
+  .home .maple-left {
+    top: -100%;
+    width: 6rem;
+    height: 6rem;
+  }
+  .about {
+    min-height: auto;
+    margin: 0;
+  }
+  .about .about-image .image-girl {
+    width: 400px;
+    height: 400px;
+  }
+  .contact .contact-form .form-box {
+    margin: 0 auto;
   }
 }
 @media (max-width: 450px) {
-  html {
-    font-size: 40%;
+  .home {
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+  }
+  .left {
+    height: 40rem;
   }
   .home .maple {
     display: none;
@@ -35,14 +67,35 @@
   .home .maple-left {
     display: none;
   }
-
+  .about {
+    margin: 0 auto;
+  }
   .about .about-image .image-girl {
     width: 300px;
     height: 300px;
-    display: block;
+  }
+  .about .about-deatails-item {
+    width: 130px;
+    font-size: 1.3rem;
+  }
+  .about .about-deatails-item-name {
+    font-size: 1rem;
+  }
+  .contact .contact-form .form-box {
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
   }
-  .about .about-details {
-    display: none;
+  .contact .contact-form form h1 {
+    font-size: 1.7rem;
+  }
+  .contact .contact-form form #textId {
+    width: 200px;
+  }
+  .contact .contact-form form #message {
+    width: 200px;
+  }
+  .contact .contact-form form #sendbtn {
+    margin-left: 90px;
   }
 }

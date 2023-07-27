@@ -17,7 +17,7 @@ var typed = new Typed(".typing", {
   backSpeed: 80,
   loop: true,
 });
-
+// scoll reveal
 const sr = ScrollReveal({
   origin: "left",
   distance: "85px",
@@ -52,7 +52,7 @@ sr2.reveal(".reveal-top", { delay: 200 });
 function loader() {
   document.querySelector(".loader-container").classList.add("fade-out");
 }
-// function fadeOut() {
-//   setInterval(loader, 3000);
-// }
-// window.onload = fadeOut();
+function fadeOut() {
+  setInterval(loader, 3000);
+}
+window.onload = fadeOut();

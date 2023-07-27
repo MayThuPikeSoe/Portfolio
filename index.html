@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-------------------   nav      ------------------>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="logo">
+          <h1>Portfo<span>lio</span></h1>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 header-menu">
+            <li>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="">
+            <i class="ri-moon-clear-fill"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!------------------- home section ------------------->
+    <section class="home" id="home">
+      <div class="d-flex home-box">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <div class="text text-center">
+        <span class="text-intro">Hi! I'm</span>
+        <h1>May Thu Win</h1>
+        <h2 style="font-size: 3rem">
+          I'm a <span class="typing">Frontend Developer</span>
+        </h2>
+      </div>
+      <img src="./images/maple.png" class="maple" alt="" />
+      <img src="./images/maple.png" class="maple-left" alt="" />
+    </section>
+    <!------------------- About section ------------------->
+    <section class="about" id="about">
+      <div class="about-image animate__animated animate__fadeIn">
+        <img src="./images/mt.png" class="image-girl" alt="" />
+      </div>
+
+      <div class="about-details mt-5">
+        <h1 class="mb-4">About me</h1>
+        <ul class="list-unstyled">
+          <li class="d-flex mb-2">
+            <span class="about-deatails-item reveal-left">Name:</span
+            ><span class="about-deatails-item-name reveal-right"
+              >May Thu Win</span
+            >
+          </li>
+          <li class="d-flex mb-2">
+            <span class="about-deatails-item reveal-left">Date of birth:</span
+            ><span class="about-deatails-item-name reveal-right"
+              >January 6, 1996</span
+            >
+          </li>
+          <li class="d-flex mb-2">
+            <span class="about-deatails-item reveal-left">Address:</span
+            ><span class="about-deatails-item-name reveal-right">Sagaing</span>
+          </li>
+          <li class="d-flex mb-2">
+            <span class="about-deatails-item reveal-left">Email:</span
+            ><span class="about-deatails-item-name reveal-right"
+              >maythupikesoe@gmail.com</span
+            >
+          </li>
+          <li class="d-flex mb-2">
+            <span class="about-deatails-item reveal-left">phone:</span
+            ><span class="about-deatails-item-name reveal-right"
+              >09941662770</span
+            >
+          </li>
+        </ul>
+        <div class="btn btn-primary mt-3 p-3">Download CV</div>
+      </div>
+
+      <!-- <img src="./images/leaf.png" class="leaf" alt="" /> -->
+    </section>
+    <!------------------- Skills section ------------------->
+    <section class="skills" id="skills">
+      <h1 class="section-heading reveal-top">Skills</h1>
+      <div class="row">
+        <div class="col col-md-6 education">
+          <div class="d-flex">
+            <i class="fas fa-award icon bg-primary text-light"></i>
+            <h2 class="mt-2 ms-3 reveal-left">Education</h2>
+          </div>
+
+          <span class="fw-bold reveal-left">2012-2018</span>
+          <p class="reveal-left">Bachelor of Electronic Engineering</p>
+
+          <div class="d-flex mt-5">
+            <i class="fas fa-award icon bg-primary text-light"></i>
+            <h2 class="mt-2 ms-3 reveal-left">Others</h2>
+          </div>
+
+          <ul>
+            <li class="reveal-left">A+ & N+</li>
+            <li class="reveal-left">Java SE</li>
+          </ul>
+        </div>
+        <div class="col col-md-6 p-5">
+          <div class="bars">
+            <div class="info d-flex justify-content-between reveal-right">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html mb-3"></div>
+          </div>
+          <div class="bars">
+            <div class="info d-flex justify-content-between reveal-right">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line css mb-3"></div>
+          </div>
+          <div class="bars">
+            <div class="info d-flex justify-content-between reveal-right">
+              <span>JavaScript</span>
+              <span>50%</span>
+            </div>
+            <div class="line js mb-3"></div>
+          </div>
+          <div class="bars">
+            <div class="info d-flex justify-content-between reveal-right">
+              <span>React</span>
+              <span>50%</span>
+            </div>
+            <div class="line react mb-3"></div>
+          </div>
+          <div class="bars">
+            <div class="info d-flex justify-content-between reveal-right">
+              <span>Tailwind</span>
+              <span>50%</span>
+            </div>
+            <div class="line tailwind mb-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------- Projects section ------------------->
+    <section class="projects" id="projects">
+      <h1 class="text-center my-5 section-heading reveal-top">Projects</h1>
+
+      <div class="projects-box d-flex">
+        <div class="projects-item reveal-left">
+          <figure class="imghvr-zoom-out fashion">
+            <img src="./images/fashion.PNG" alt="" />
+            <figcaption class="bg-transparent text-center">
+              <i class="fas fa-hamburger" style="color: rgb(255, 166, 0)"></i>
+
+              <p class="project-name">Fashion Project</p>
+              <a href="https://stellar-kitsune-aa7a57.netlify.app" class="link"
+                >go to project</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <div class="projects-item reveal-bottom">
+          <figure class="imghvr-zoom-out food">
+            <img src="./images/food.PNG" alt="" />
+            <figcaption class="bg-transparent text-center">
+              <i class="fas fa-hamburger" style="color: rgb(255, 166, 0)"></i>
+              <p class="project-name">Food project</p>
+              <a
+                href="https://monumental-puffpuff-25e625.netlify.app"
+                class="link"
+                >go to project</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+        <div class="projects-item reveal-bottom">
+          <figure class="imghvr-zoom-out weather">
+            <img src="./images/app.PNG" alt="" />
+            <figcaption class="bg-transparent text-center">
+              <i class="fas fa-cloud-sun"></i>
+              <p class="project-name">Weather app</p>
+              <a
+                href="https://vanilla-weather-app-week8.netlify.app"
+                class="link"
+                >go to project</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="projects-item reveal-right">
+          <figure class="imghvr-zoom-out weather">
+            <img src="./images/shop.PNG" alt="" />
+            <figcaption class="bg-transparent text-center">
+              <i class="fas fa-cloud-sun"></i>
+              <p class="project-name">Shop Project</p>
+              <a href="https://spiffy-frangollo-ca49b6.netlify.app" class="link"
+                >go to project</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!------------------- contact Section ------------------->
+    <section class="contact" id="contact">
+      <h1 class="section-heading reveal-top">Contact</h1>
+      <div class="contact-box-list d-flex">
+        <div class="contact-box reveal-bottom">
+          <div class="contact-box-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="contact-box-text">
+            <h3>Address</h3>
+            <p>Sagaing</p>
+          </div>
+        </div>
+        <div class="contact-box reveal-bottom">
+          <div class="contact-box-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-box-text">
+            <h3>Contact Number</h3>
+            <p>+959975316595</p>
+          </div>
+        </div>
+        <div class="contact-box reveal-bottom">
+          <div class="contact-box-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-box-text">
+            <h3>Email</h3>
+            <p>maythupikesoe@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-box reveal-bottom">
+          <div class="contact-box-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="contact-box-text">
+            <h3>Github</h3>
+            <a
+              href="https://github.com/MayThuPikeSoe"
+              style="font-weight: 700; color: #9e9e9e; text-decoration: none"
+              >https://github.com/MayThuPikeSoe</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="form-box reveal-bottom">
+          <form
+            action="https://formsubmit.co/f12e24fdd8e564b723f8b9dd108e36ff"
+            method="POST"
+          >
+            <h1 style="padding-top: 1.5rem; padding-left: 7rem">
+              Send Message
+            </h1>
+            <input
+              type="text"
+              id="textId"
+              name="name"
+              autocomplete="off"
+              placeholder="Fullname"
+              required
+            /><br />
+            <input
+              type="email"
+              id="textId"
+              name="email"
+              autocomplete="off"
+              placeholder="email"
+              required
+            /><br />
+            <textarea
+              id="message"
+              placeholder="type your message"
+              required
+            ></textarea
+            ><br />
+            <button type="submit" id="sendbtn">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-icon-list">
+        <div class="footer-box-icon">
+          <a href="www.linkedin.com/in/may-thu-pike-soe-181734246"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/MayThuPikeSoe"
+            ><i class="fab fa-github" style="padding-left: 4rem"></i
+          ></a>
+        </div>
+        <p style="color: #3b3a3a; font-size: 1.5rem; text-align: center">
+          This project was coded by
+          <span style="color: rgb(57, 169, 243)">May Thu</span> and open sourced
+          on
+          <a href="https://github.com/MayThuPikeSoe/portfolio"> github.</a>
+        </p>
+      </div>
+    </footer>
+    <!-- <div class="loader-container">
+      <img src="./images/loader.gif" alt="" />
+    </div> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

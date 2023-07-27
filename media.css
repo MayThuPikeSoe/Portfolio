@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .about .about-image {
+    width: 100%;
+  }
+  .about .about-image .image-girl {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .contact .contact-form .form-box {
+    padding-left: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-left: 0;
+    position: static;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+  .home .maple {
+    display: none;
+  }
+  .home .maple-left {
+    display: none;
+  }
+
+  .about .about-image .image-girl {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .about .about-details {
+    display: none;
+  }
+}

@@ -61,11 +61,19 @@
   .left {
     height: 40rem;
   }
-  .home .maple {
-    display: none;
-  }
   .home .maple-left {
-    display: none;
+    top: -110%;
+    left: 15%;
+
+    width: 5rem;
+    height: 5rem;
+  }
+  .home .maple {
+    top: -60%;
+    left: 80%;
+
+    width: 5rem;
+    height: 5rem;
   }
   .about {
     margin: 0 auto;
@@ -81,6 +89,7 @@
   .about .about-deatails-item-name {
     font-size: 1rem;
   }
+
   .contact .contact-form .form-box {
     width: 300px;
     height: 300px;
@@ -97,5 +106,22 @@
   }
   .contact .contact-form form #sendbtn {
     margin-left: 90px;
+  }
+  footer {
+    height: auto;
+    text-align: justify;
+  }
+  footer .footer-box-icon i {
+    font-size: 3rem;
+  }
+  footer .footer-box-icon .git-icon {
+    margin-left: 1rem;
+  }
+  footer .footer-box-icon .envelope-icon {
+    padding-left: 1rem;
+  }
+  footer .footer-text {
+    font-size: 1.5rem;
+    text-align: justify;
   }
 }

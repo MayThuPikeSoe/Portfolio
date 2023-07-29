@@ -128,17 +128,7 @@ nav .header-menu a {
   color: var(--blue);
   font-weight: 800;
 }
-/* .home .leaf {
-  top: -100%;
-  left: 10%;
-  right: 0;
-  transform: scaleX(80deg);
-  position: relative;
-  width: 80px;
-  height: 80px;
-  z-index: 33;
-  animation: leaf 1s infinite;
-} */
+
 .home .maple-left {
   top: -100%;
   left: 20%;
@@ -417,11 +407,11 @@ nav .header-menu a {
 .contact .contact-form {
   margin-top: 90px;
   padding-top: 45px;
-  background-image: url(./images/contact.jpg);
+  background-image: url(./images/contact-bg.png);
   width: 100%;
   height: 400px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .contact .contact-form .form-box {
   width: 400px;
@@ -487,6 +477,17 @@ footer .footer-box-icon i {
   color: #eceeea;
 
   padding-bottom: 2rem;
+}
+footer .footer-box-icon .git-icon {
+  margin-left: 4rem;
+}
+footer .footer-box-icon .envelope-icon {
+  padding-left: 4rem;
+}
+footer .footer-text {
+  color: #646262;
+  font-size: 1.7rem;
+  text-align: center;
 }
 /* loader */
 .loader-container {
